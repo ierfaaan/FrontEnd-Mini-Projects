@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Custom Video Player</title>
   <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="../mian-Css/normilize.css">
+  <link rel="stylesheet" href="../../mian-Css/normilize.css">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -14,13 +14,16 @@
     <input type="range" id="progress" max="100" value="50"></input>
     <div class="video-wrapper__video-controls">
       <ion-icon class="icon play" name="play-outline"></ion-icon>
-      <ion-icon class="icon volume" name="volume-high-outline"></ion-icon>
-      <input type="range" id="volume-profress" max="100" value="50"></input>
+      <span class="wrapper-vol">
+        <ion-icon class="icon volume" name="volume-high-outline"></ion-icon>
+        <input type="range" class="volume-profress" max="100" value="80"></input>
+      </span>
       <ion-icon class="icon time-icon" name="time-outline"></ion-icon>
       <span class="time">00:50 / 01:00</span>
       <ion-icon class="icon full" name="scan-outline"></ion-icon>
     </div>
   </div>
+  <script src="app.js"></script>
   <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
 </body>
 </html>
