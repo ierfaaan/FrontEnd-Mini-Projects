@@ -1,0 +1,91 @@
+body{
+  background-color: #f1ebeb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px 0 ;
+  padding: 20px;
+  color: #555;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.cir-wrapper{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 10px;
+}
+.cir-wrapper span{
+  width: 12px;
+  height: 12px;
+  background: #fff;
+  border-radius: 50%;
+  border: 2px solid #aaa;
+}
+.add-products{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap:15px;
+}
+.search-wrapper{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+#searchBox,#addDes,#addTitle,#button,#searchBy{
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  padding: 5px;
+  font-family: inherit;
+  border: 1px solid #ccc;
+}
+#addDes{
+  height: 200px;
+}
+#button{
+  cursor: pointer;
+  background-color:#ff5959;
+  border:0;
+  color: #fff;
+  
+}
+#button:hover{
+  background-color: #fc4b4b;
+}
+#searchBox{
+  width: 100%;
+}
+.app{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  font-family: inherit; 
+}
+.box{
+  color: #444;
+  position: relative;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 15px;
+  border: 1px solid #ccc;
+ 
+}
+.del{
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  cursor: pointer;
+}
