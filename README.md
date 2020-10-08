@@ -1,2 +1,2 @@
 # FrontEnd-Mini-Projects
-Frontend mini Project :D
+By opening index.html you can see different projects. 
