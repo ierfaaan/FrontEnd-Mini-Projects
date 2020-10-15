@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Upload File with Drag and Drop and Progress Bar</title>
+  <link rel="stylesheet" href="assets/css/normilize.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <div class="container">
+    <h1>Upload</h1>
+    <hr>
+    <h2>Select files from your computer :</h2>
+    <label for="up" class="btn">Select file</label>
+    <input type="file" name="file[]" class="input-files" id="up" multiple>
+    <button class="btn" id="uploadBtn">Upload</button>
+    <button class="btn" id="cancel">Cancel Request</button>
+    <h2>or Drag and Drop files below :</h2>
+    <div class="dropzone"></div>
+    <div class="progress">
+      <div class="bar">
+        <span></span>
+      </div>
+    </div>
+  </div>
+  <div class="container rep">
+    <header class="header">
+      <h1>Report</h1>
+      <hr>
+    </header>
+    <ul id="report-list">
+    </ul>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
