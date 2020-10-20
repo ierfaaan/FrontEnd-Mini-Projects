@@ -1,0 +1,68 @@
+{
+  "products" : [
+  {
+    "id":"1",
+    "title":"Product Name 1",
+    "description":"This is product Description 1",
+    "price":25000000,
+    "image":"assets/img/product.jpg",
+    "quantity":"0"
+  },
+  {
+    "id":"2",
+    "title":"Product Name 2",
+    "description":"This is product Description 2",
+    "price":30000000,
+    "image":"assets/img/product.jpg",
+    "quantity":"0"
+  },
+  {
+    "id":"3",
+    "title":"Product Name 3",
+    "description":"This is product Description 3",
+    "price":48000000,
+    "image":"assets/img/product.jpg",
+    "quantity":"0"
+  },
+  {
+    "id":"4",
+    "title":"Product Name 4",
+    "description":"This is product Description 4",
+    "price":10000000,
+    "image":"assets/img/product.jpg",
+    "quantity":"0"
+  },
+  {
+    "id":"5",
+    "title":"Product Name 5",
+    "description":"This is product Description 5",
+    "price":250000,
+    "image":"assets/img/product.jpg",
+    "quantity":"0"
+  },
+  {
+    "id":"6",
+    "title":"Product Name 6",
+    "description":"This is product Description 6",
+    "price":800000,
+    "image":"assets/img/product.jpg",
+    "quantity":"0"
+  },
+  {
+    "id":"7",
+    "title":"Product Name 7",
+    "description":"This is product Description 7",
+    "price":5600000,
+    "image":"assets/img/product.jpg",
+    "quantity":"0"
+  },
+  {
+    "id":"8",
+    "title":"Product Name 8",
+    "description":"This is product Description 8",
+    "price":6600000,
+    "image":"assets/img/product.jpg",
+    "quantity":"0"
+  }
+]
+}
