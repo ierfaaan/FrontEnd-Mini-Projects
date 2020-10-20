@@ -68,18 +68,16 @@ fetch('assets/products.json')
         .innerHTML = '<span class="alert">Your Shopping List Is Empty!</span>'
     }else{
       let cartHtml = cart.map((item)=>{
-        return  `
-          <div class="card">
-              <img class="shopping-list-img" src="${item.image}" alt="${item.title}">
-              <h2 class="card-title">${item.title}</h2>
-              <div class="count">
-                <span class="inc-quantity" data-product-id = "${item.id}">+</span>
-                <span>${item.quantity}</span>
-                <span class="dec-quantity" data-product-id = "${item.id}">-</span>
-              </div>
-            </div>
-          </div>`
-      })
+        return  `<div class="card">
+                   <img class="shopping-list-img" src="${item.image}" alt="${item.title}">
+                   <h2 class="card-title">${item.title}</h2>
+                  <div class="count">
+                    <span class="inc-quantity" data-product-id = "${item.id}">+</span>
+                    <span>${item.quantity}</span>
+                    <span class="dec-quantity" data-product-id = "${item.id}">-</span>
+                  </div>
+                </div>`
+      }).join('');
   
       document.querySelector('.body-shopping-list')
       .innerHTML = cartHtml
