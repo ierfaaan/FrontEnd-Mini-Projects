@@ -4,102 +4,437 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>FornEnd Mini Projects</title>
-  <link rel="stylesheet" href="mian-Css/normilize.css">
-  <link rel="stylesheet" href="mian-Css/style.css">
+  <link rel="stylesheet" href="css/reset/normilize.css">
+  <link rel="stylesheet" href="css/icons/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <div class="container">
     <header class="header">
-      <img class="header__img" src="mian-Css/img/man.png" alt="">
-      <div class="header__body">
+      <nav class="header__nav">
+        <span class="header__close--btn">=</span>
+        <ul class="header__menu">
+          <li>
+            <a href="#">
+            <span><i class="fal fa-home"></i></span>
+            <span>Home</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span><i class="fal fa-step-forward"></i></span>
+              <span>What's next?</span>
+            </a></li>
+          <li>
+            <a href="#">
+              <span><i class="fal fa-construction"></i></span>
+              <span>Projects</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span><i class="fal fa-chalkboard-teacher"></i></span>
+              <span>Tutorial</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span><i class="fab fa-github"></i></span>
+              <span>github</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span><i class="fal fa-user-alien"></i></span>
+              <span>About me</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <div class="header__right-box">
+        <div class="header__comingsoon">
+            <div class="box__title ">
+              <h1 class="title__text light">Drag and Drop List</h1>
+            </div>
+            <div class="charts">
+                <div class="charts__chart">
+                    <div class="charts__label">HTML:</div>
+                    <div class="charts__progress">
+                      <div class="charts__bar" style="width:10% ">
+                        </div>
+                      </div>
+                      <span class="charts__text-bar">10%</span>
+                </div>
+                <div class="charts__chart">
+                    <div class="charts__label">CSS:</div>
+                    <div class="charts__progress">
+                      <div class="charts__bar" style="width:20% ">
+                        </div>
+                      </div>
+                    <span class="charts__text-bar">20%</span>
+                  </div>
+                    <div class="charts__chart">
+                        <div class="charts__label">JS:</div>
+                        <div class="charts__progress">
+                          <div class="charts__bar" style="width:40% ">
+                            </div>
+                          </div>
+                          <span class="charts__text-bar">30%</span>
+                    </div>
+              </div>
+              <div class="box__description ">
+                  <h1 class="description__text--title light">Description :</h1>
+                  <p class="description__text light">In this project, we create a list that can be moved and sorted with drag and drop</p>
+            </div>
+            <footer class="box__footer">
+              <a href="" class="footer__btn btn-light">Coming Soon...</a>
+            </footer>
+        </div>
+      </div>
+      <div class="header__left-box">
         <h1 class="header__title">FrontEnd Mini Projects</h1>
         <p class="header__details">Welcome my friend You can see small projects about Frontend below</p>
         <a href="#main" class="header__btn--scroll">Let's get started</a>
       </div>
     </header>
     <main id="main">
-      <section class="box">
-        <figure class="box__photo">
-          <img class="photo__img" src="Projects/Custom-video-player/img/project1.JPG">
-        </figure>
-        <div class="box__title">
-          <h1 class="title__text">Custome Video Player</h1>
+      <div class="title-part">
+        <h2>Projects :</h2>
+        <div class="tag-wrapper">
+          <label for="all" class="tag">#All</label>
+          <input type="checkbox" name="tag" id="all" checked>
         </div>
-        <footer class="box__footer">
-          <a href="Projects/Custom-video-player/index.html" class="footer__btn" target="_blank">Show Project</a>
-        </footer>
-      </section>
-      <section class="box">
-        <figure class="box__photo">
-          <img class="photo__img" src="Projects/Cube/img/project2.JPG">
-        </figure>
-        <div class="box__title">
-          <h1 class="title__text">Cube</h1>
+        <div class="tag-wrapper">
+          <label for="html" class="tag">#HTML</label>
+          <input type="checkbox" name="tag" id="html">
         </div>
-        <footer class="box__footer">
-          <a href="Projects/Cube/index.html" class="footer__btn" target="_blank">Show Project</a>
-        </footer>
-      </section>
-      <section class="box">
-        <figure class="box__photo">
-          <img class="photo__img" src="Projects/Drag-and-Drop/img/project 3.JPG">
-        </figure>
-        <div class="box__title">
-          <h1 class="title__text">Drag and Drop</h1>
+        <div class="tag-wrapper">
+          <label for="css" class="tag">#CSS</label>
+          <input type="checkbox" name="tag" id="css">
         </div>
-        <footer class="box__footer">
-          <a href="Projects/Drag-and-Drop/index.html" class="footer__btn" target="_blank">Show Project</a>
-        </footer>
-      </section>
-      <section class="box">
-        <figure class="box__photo">
-          <img class="photo__img" src="Projects/BookStore/img/project 4.jpg">
-        </figure>
-        <div class="box__title">
-          <h1 class="title__text">Book Store ( Modern Js )</h1>
+        <div class="tag-wrapper">
+          <label for="bootstrap" class="tag">#BOOTSTRAP</label>
+          <input type="checkbox" name="tag" id="bootstrap">
         </div>
-        <footer class="box__footer">
-          <a href="Projects/BookStore/index.html" class="footer__btn" target="_blank">Show Project</a>
-        </footer>
-      </section>
-      <section class="box">
-        <figure class="box__photo">
-          <img class="photo__img" src="Projects/Tic Tac Toe/assets/img/project 5.jpg">
-        </figure>
-        <div class="box__title">
-          <h1 class="title__text">Tic Tac Toe</h1>
+        <div class="tag-wrapper">
+          <label for="sass" class="tag">#SASS</label>
+          <input type="checkbox" name="tag" id="sass">
         </div>
-        <footer class="box__footer">
-          <a href="Projects/Tic Tac Toe/index.html" class="footer__btn" target="_blank">Show Project</a>
-        </footer>
-      </section>
-      <section class="box">
-        <figure class="box__photo">
-          <img class="photo__img" src="Projects/uploadfile/assets/img/project6.jpg">
-        </figure>
-        <div class="box__title">
-          <h1 class="title__text">File Uploader</h1>
+        <div class="tag-wrapper">
+          <label for="js" class="tag">#JS</label>
+          <input type="checkbox" name="tag" id="js">
         </div>
-        <footer class="box__footer">
-          <a href="Projects/uploadfile/index.html" class="footer__btn" target="_blank">Show Project</a>
-        </footer>
-      </section>
-      <section class="box">
-        <figure class="box__photo">
-          <img class="photo__img" src="Projects/shop/assets/img/product.jpg">
-        </figure>
-        <div class="box__title">
-          <h1 class="title__text">Shop With Fetch Api</h1>
+        <div class="tag-wrapper">
+          <label for="jquery" class="tag">#JQUERY</label>
+          <input type="checkbox" name="tag" id="jquery">
         </div>
-        <footer class="box__footer">
-          <a href="Projects/shop/index.html" class="footer__btn" target="_blank">Show Project</a>
-        </footer>
-      </section>
+        <div class="tag-wrapper">
+          <label for="ajax" class="tag">#AJAX</label>
+          <input type="checkbox" name="tag" id="ajax">
+        </div>
+        <div class="tag-wrapper">
+          <label for="Applied" class="tag">#APPLIED</label>
+          <input type="checkbox" name="tag" id="Applied">
+        </div>
+        <div class="tag-wrapper">
+          <label for="amusing" class="tag">#AMUSING</label>
+          <input type="checkbox" name="tag" id="amusing">
+        </div>
+      </div>
+      <div class="projects-box">
+        <section class="box">
+          <div class="box__title">
+            <h1 class="title__text">Custome Video Player</h1>
+          </div>
+          <div class="charts">
+              <div class="charts__chart">
+                  <div class="charts__label">HTML:</div>
+                  <div class="charts__progress">
+                    <div class="charts__bar" style="width:10% ">
+                      </div>
+                    </div>
+                    <span class="charts__text-bar">10%</span>
+              </div>
+              <div class="charts__chart">
+                  <div class="charts__label">CSS:</div>
+                  <div class="charts__progress">
+                    <div class="charts__bar" style="width:20% ">
+                      </div>
+                    </div>
+                  <span class="charts__text-bar">20%</span>
+                </div>
+                  <div class="charts__chart">
+                      <div class="charts__label">JS:</div>
+                      <div class="charts__progress">
+                        <div class="charts__bar" style="width:30% ">
+                          </div>
+                        </div>
+                        <span class="charts__text-bar">30%</span>
+                  </div>
+            </div>
+            <div class="box__description">
+                <h1 class="description__text--title">Description :</h1>
+                <p class="description__text">In this project we will create a video player with a custom structure. In this project you will learn new things from JavaScript language.</p>
+          </div>
+          <footer class="box__footer">
+            <a href="Projects/Custom-video-player/index.html" class="footer__btn" target="_blank">Show Project</a>
+          </footer>
+        </section>
+        <section class="box">
+          <div class="box__title">
+            <h1 class="title__text">Cube</h1>
+          </div>
+          <div class="charts">
+              <div class="charts__chart">
+                  <div class="charts__label">HTML:</div>
+                  <div class="charts__progress">
+                    <div class="charts__bar" style="width:10% ">
+                      </div>
+                    </div>
+                    <span class="charts__text-bar">10%</span>
+              </div>
+              <div class="charts__chart">
+                  <div class="charts__label">CSS:</div>
+                  <div class="charts__progress">
+                    <div class="charts__bar" style="width:40% ">
+                      </div>
+                    </div>
+                  <span class="charts__text-bar">40%</span>
+                </div>
+                  <div class="charts__chart">
+                      <div class="charts__label">JS:</div>
+                      <div class="charts__progress">
+                        <div class="charts__bar" style="width:10% ">
+                          </div>
+                        </div>
+                        <span class="charts__text-bar">10%</span>
+                  </div>
+            </div>
+            <div class="box__description">
+                <h1 class="description__text--title">Description :</h1>
+                <p class="description__text">In this project we create a cube on the web. This project is a good exercise on the subject of transform3D in css.</p>
+          </div>
+          <footer class="box__footer">
+            <a href="Projects/Cube/index.html" class="footer__btn" target="_blank">Show Project</a>
+          </footer>
+        </section>
+        <section class="box">
+          <div class="box__title">
+            <h1 class="title__text">Drag and Drop</h1>
+          </div>
+          <div class="charts">
+            <div class="charts__chart">
+                <div class="charts__label">HTML:</div>
+                <div class="charts__progress">
+                  <div class="charts__bar" style="width:10% ">
+                    </div>
+                  </div>
+                  <span class="charts__text-bar">10%</span>
+            </div>
+            <div class="charts__chart">
+                <div class="charts__label">CSS:</div>
+                <div class="charts__progress">
+                  <div class="charts__bar" style="width:20% ">
+                    </div>
+                  </div>
+                <span class="charts__text-bar">20%</span>
+              </div>
+                <div class="charts__chart">
+                    <div class="charts__label">JS:</div>
+                    <div class="charts__progress">
+                      <div class="charts__bar" style="width:40% ">
+                        </div>
+                      </div>
+                      <span class="charts__text-bar">40%</span>
+                </div>
+          </div>
+          <div class="box__description">
+              <h1 class="description__text--title">Description :</h1>
+              <p class="description__text">In this project, we will create boxes with drag and Drop capability</p>
+        </div>
+          <footer class="box__footer">
+            <a href="Projects/Drag-and-Drop/index.html" class="footer__btn" target="_blank">Show Project</a>
+          </footer>
+        </section>
+        <section class="box">
+          <div class="box__title">
+            <h1 class="title__text">Book Store management</h1>
+          </div>
+          <div class="charts">
+              <div class="charts__chart">
+                  <div class="charts__label">HTML:</div>
+                  <div class="charts__progress">
+                    <div class="charts__bar" style="width:10% ">
+                      </div>
+                    </div>
+                    <span class="charts__text-bar">10%</span>
+              </div>
+              <div class="charts__chart">
+                  <div class="charts__label">CSS:</div>
+                  <div class="charts__progress">
+                    <div class="charts__bar" style="width:30% ">
+                      </div>
+                    </div>
+                  <span class="charts__text-bar">30%</span>
+                </div>
+                  <div class="charts__chart">
+                      <div class="charts__label">JS:</div>
+                      <div class="charts__progress">
+                        <div class="charts__bar" style="width:50% ">
+                          </div>
+                        </div>
+                        <span class="charts__text-bar">50%</span>
+                  </div>
+            </div>
+            <div class="box__description">
+                <h1 class="description__text--title">Description :</h1>
+                <p class="description__text">In this project we create a system for managing the library in a simple way with the ability to online search  and add and Delete</p>
+          </div>
+          <footer class="box__footer">
+            <a href="Projects/BookStore/index.html" class="footer__btn" target="_blank">Show Project</a>
+          </footer>
+        </section>
+        <section class="box">
+          <div class="box__title">
+            <h1 class="title__text">Tic Tac Toe</h1>
+          </div>
+          <div class="charts">
+              <div class="charts__chart">
+                  <div class="charts__label">HTML:</div>
+                  <div class="charts__progress">
+                    <div class="charts__bar" style="width:10% ">
+                      </div>
+                    </div>
+                    <span class="charts__text-bar">10%</span>
+              </div>
+              <div class="charts__chart">
+                  <div class="charts__label">CSS:</div>
+                  <div class="charts__progress">
+                    <div class="charts__bar" style="width:30% ">
+                      </div>
+                    </div>
+                  <span class="charts__text-bar">30%</span>
+                </div>
+                  <div class="charts__chart">
+                      <div class="charts__label">JS:</div>
+                      <div class="charts__progress">
+                        <div class="charts__bar" style="width:40% ">
+                          </div>
+                        </div>
+                        <span class="charts__text-bar">40%</span>
+                  </div>
+            </div>
+            <div class="box__description">
+                <h1 class="description__text--title">Description :</h1>
+                <p class="description__text">In this project, we will implement the cool game tic tac toe. In this project, your JavaScript knowledge will be upgraded.</p>
+          </div>
+          <footer class="box__footer">
+            <a href="Projects/Tic Tac Toe/index.html" class="footer__btn" target="_blank">Show Project</a>
+          </footer>
+        </section>
+        <section class="box">
+          <div class="box__title">
+            <h1 class="title__text">File Uploader</h1>
+          </div>
+          <div class="charts">
+              <div class="charts__chart">
+                  <div class="charts__label">HTML:</div>
+                  <div class="charts__progress">
+                    <div class="charts__bar" style="width:15% ">
+                      </div>
+                    </div>
+                    <span class="charts__text-bar">15%</span>
+              </div>
+              <div class="charts__chart">
+                  <div class="charts__label">CSS:</div>
+                  <div class="charts__progress">
+                    <div class="charts__bar" style="width:25% ">
+                      </div>
+                    </div>
+                  <span class="charts__text-bar">25%</span>
+                </div>
+                  <div class="charts__chart">
+                      <div class="charts__label">JS:</div>
+                      <div class="charts__progress">
+                        <div class="charts__bar" style="width:50% ">
+                          </div>
+                        </div>
+                        <span class="charts__text-bar">50%</span>
+                  </div>
+                  <div class="charts__chart">
+                    <div class="charts__label">َAJAX:</div>
+                    <div class="charts__progress">
+                      <div class="charts__bar" style="width:50% ">
+                        </div>
+                      </div>
+                      <span class="charts__text-bar">50%</span>
+                </div>
+            </div>
+            <div class="box__description">
+                <h1 class="description__text--title">Description :</h1>
+                <p class="description__text">In this project, you will learn how to send forms to the server using ajax. This file uploader also works by dragging and dropping.
+                  <br><strong>Note: This project requires a server</strong></p>
+          </div>
+          <footer class="box__footer">
+            <a href="Projects/uploadfile/index.html" class="footer__btn" target="_blank">Show Project</a>
+          </footer>
+        </section>
+        <section class="box">
+          <div class="box__title">
+            <h1 class="title__text">Shop With Fetch Api</h1>
+          </div>
+          <div class="charts">
+              <div class="charts__chart">
+                  <div class="charts__label">HTML:</div>
+                  <div class="charts__progress">
+                    <div class="charts__bar" style="width:15% ">
+                      </div>
+                    </div>
+                    <span class="charts__text-bar">15%</span>
+              </div>
+              <div class="charts__chart">
+                  <div class="charts__label">CSS:</div>
+                  <div class="charts__progress">
+                    <div class="charts__bar" style="width:20% ">
+                      </div>
+                    </div>
+                  <span class="charts__text-bar">20%</span>
+              </div>
+              <div class="charts__chart">
+                      <div class="charts__label">JS:</div>
+                      <div class="charts__progress">
+                        <div class="charts__bar" style="width:50% ">
+                          </div>
+                        </div>
+                        <span class="charts__text-bar">50%</span>
+              </div>
+              <div class="charts__chart">
+                <div class="charts__label">AJAX:</div>
+                <div class="charts__progress">
+                  <div class="charts__bar" style="width:40% ">
+                    </div>
+                  </div>
+                  <span class="charts__text-bar">40%</span>
+              </div>
+            </div>
+          <div class="box__description">
+                <h1 class="description__text--title">Description :</h1>
+                <p class="description__text">In this project, a simple store has been implemented with the possibility of displaying the shopping cart. In this project, local storage and fetch api have been used.
+                  <br><strong>Note: This project requires a server</strong>
+                </p>
+          </div>
+          <footer class="box__footer">
+            <a href="Projects/shop/index.html" class="footer__btn" target="_blank">Show Project</a>
+          </footer>
+        </section>
+      </div>
+      </div>
     </main>
     <footer class="footer">
-      <p>Designed with 💙 by <a href="https://github.com/ierfaaan" target="_blank">ierfaaan</a></p>
+      <p>Designed with 🤍 by <a href="https://github.com/ierfaaan" target="_blank">ierfaaan</a></p>
     </footer>
   </div>
-  <script src="mian-Js/main.js"></script>
+  <script src="js/icons/all.min.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>
