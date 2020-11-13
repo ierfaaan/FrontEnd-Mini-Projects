@@ -8,4 +8,5 @@ List of completed projects :
 ◾️ tic tac toe game
 ◾️ File Uploader
 ◾️ shop With Fetch Api
-🔔 Drag and Drop List Comming Soon...
+◾️ Sortable list
+🔔 Card with shave js
