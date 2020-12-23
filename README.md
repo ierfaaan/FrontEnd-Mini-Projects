@@ -14,10 +14,10 @@ By opening `index.html` you can see different projects.
 
 ◾️ [BookStore Management](Projects/BookStore)
 
-◾️ [Tic tac toe game](Projects/Tic Tac Toe)
+◾️ [Tic tac toe game](Projects/Tic%20Tac%20Toe)
 
 ◾️ [File Uploader](Projects/uploadfile)
 
 ◾️ [Shop With Fetch Api](Projects/shop)
 
-◾️ [Sortable list](Projects/Sortable list)
+◾️ [Sortable list](Projects/Sortable%20list)
