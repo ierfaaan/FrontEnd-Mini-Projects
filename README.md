@@ -1,23 +1,23 @@
-# FrontEnd-Mini-Projects
+# Mini FrontEnd Projects
 
 By opening `index.html` you can see different projects.
 
+🔔 Card with [Shave js](https://github.com/dollarshaveclub/shave)
+
 ### List of completed projects:
 
-◾️ Custom Video Player
+◾️ [Custom Video Player](Projects/Custom-video-player)
 
-◾️ Drag and Drop Box
+◾️ [Drag and Drop Box](Projects/Drag-and-Drop)
 
-◾️ Cube
+◾️ [Cube](Projects/Cube)
 
-◾️ BookStore Management
+◾️ [BookStore Management](Projects/BookStore)
 
-◾️ tic tac toe game
+◾️ [Tic tac toe game](Projects/Tic%20Tac%20Toe)
 
-◾️ File Uploader
+◾️ [File Uploader](Projects/uploadfile)
 
-◾️ shop With Fetch Api
+◾️ [Shop With Fetch Api](Projects/shop)
 
-◾️ Sortable list
-
-🔔 Card with shave js
+◾️ [Sortable list](Projects/Sortable%20list)
